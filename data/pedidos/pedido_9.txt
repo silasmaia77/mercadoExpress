@@ -1,0 +1,11 @@
+PEDIDO #9
+Cliente: Silas
+Telefone: 35999433313
+Endereço: Rua 15 de Abril, 256
+Pagamento: Dinheiro
+-------------------------
+2x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90 cada
+300g de Queijo Mussarela (Tirolez): R$ 39,90/kg
+1,3kg de Carne Moída (Friboi): R$ 24,90/kg
+-------------------------
+TOTAL: R$ 127.37

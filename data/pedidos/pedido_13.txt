@@ -1,0 +1,9 @@
+PEDIDO #13
+Cliente: Samuel
+Telefone: 1198888-7777
+Endereço: Av. Paulista, 1000
+Pagamento: Crédito
+-------------------------
+1x Queijo Mussarela (Tirolez) - Kg (R$ 39,90) = R$ 39,90
+-------------------------
+TOTAL: R$ 39.90

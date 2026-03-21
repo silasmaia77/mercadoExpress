@@ -1,0 +1,15 @@
+PEDIDO #21
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 12 de Abril, Centro
+Pagamento: Dinheiro (troco para R$ 150)
+-------------------------
+5x Arroz (Selecta) - 1kg (R$ 5.38 cada) = R$ 26.90
+1x Feijão (TopSabor) - 2kg = R$ 12.70
+0.5x Carne Moída (Friboi) - 1Kg (R$ 24.90/kg) = R$ 12.45
+5x Pão Francês (Padaria Local) - 250g (aproximadamente) = R$ 3.48
+2x Tomate (Fazenda Real) - 1Kg (R$ 14.56/kg) = R$ 29.12
+1x Óleo de Soja (Fazenda Real) - 1L = R$ 6.30
+4x Sabonete (Dove) - 90g (R$ 3.29 cada) = R$ 13.16
+-------------------------
+TOTAL: R$ 104.11

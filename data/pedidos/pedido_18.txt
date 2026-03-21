@@ -1,0 +1,13 @@
+PEDIDO #18
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 23 de Maio, Centro
+Pagamento: Dinheiro, troco para R$ 300,00
+-------------------------
+5x Arroz Tipo 1 (Tio João) - 5kg (R$ 28,90 cada) = R$ 144,50
+3x Feijão Preto (Camil) - 1kg (R$ 7,99 cada) = R$ 23,97
+1x Shampoo (Pantene) - 400ml = R$ 18,90
+300g de Queijo Mussarela (Tirolez) = R$ 11,97
+3x Suco de Laranja (Del Valle) - 1L (R$ 7,49 cada) = R$ 22,47
+-------------------------
+TOTAL: R$ 221.81

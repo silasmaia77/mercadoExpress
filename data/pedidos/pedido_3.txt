@@ -1,0 +1,14 @@
+PEDIDO #3
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 13 de Maio, Centro
+Pagamento: Dinheiro
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90
+2x Feijão Preto (Camil) - 1kg: R$ 15,98
+5x Açúcar Refinado (União) - 1kg: R$ 21,45
+3x Sabonete Líquido (Lux) - 250ml: R$ 23,97
+1x Shampoo (Pantene) - 400ml: R$ 18,90
+0,3x Queijo Mussarela (Tirolez) - Kg: R$ 11,97
+-------------------------
+TOTAL: R$ 121.17

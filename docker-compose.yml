@@ -1,0 +1,90 @@
+version: "3.8"
+
+services:
+  waha:
+    image: devlikeapro/waha:latest
+    container_name: waha_mercado
+    restart: always
+    environment:
+      - WHATSAPP_DEFAULT_ENGINE=WEBJS
+      - WHATSAPP_SWAGGER_USERNAME=${WAHA_SWAGGER_USERNAME}
+      - WHATSAPP_SWAGGER_PASSWORD=${WAHA_SWAGGER_PASSWORD}
+      - WAHA_API_KEY=${WAHA_API_KEY}
+
+      - WHATSAPP_HOOK_URL=http://api:5000/webhook
+      - WHATSAPP_HOOK_EVENTS=message,state.change
+      - WHATSAPP_HOOK_CUSTOM_HEADERS=X-Webhook-Token:${WEBHOOK_TOKEN}
+
+      - WHATSAPP_HOOK_RETRIES_POLICY=linear
+      - WHATSAPP_HOOK_RETRIES_DELAY_SECONDS=2
+      - WHATSAPP_HOOK_RETRIES_ATTEMPTS=4
+    ports:
+      - "127.0.0.1:3100:3000"
+    volumes:
+      - ./.waha:/app/.sessions
+      - ./.media:/app/.media
+    networks: [mercado_net]
+
+  redis:
+    image: redis:7
+    container_name: redis_mercado
+    restart: always
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    networks: [mercado_net]
+
+  api:
+    build: .
+    image: mercadoexpress_image:prod
+    container_name: mercadoexpress_api
+    restart: always
+    env_file: [.env]
+    environment:
+      - WAHA_BASE_URL=http://waha:3000
+      - REDIS_URL=redis://redis:6379/0
+      - SQLITE_PATH=/app/data/mercado.db
+    depends_on: [waha, redis]
+    ports:
+      - "127.0.0.1:5100:5000"
+    volumes:
+      - ./data:/app/data
+    command: ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "webhook:app", "--timeout", "120"]
+    networks: [mercado_net]
+
+  worker:
+    image: mercadoexpress_image:prod
+    container_name: mercadoexpress_worker
+    restart: always
+    env_file: [.env]
+    environment:
+      - WAHA_BASE_URL=http://waha:3000
+      - REDIS_URL=redis://redis:6379/0
+      - SQLITE_PATH=/app/data/mercado.db
+    depends_on: [waha, redis, api]
+    volumes:
+      - ./data:/app/data
+    command: ["python", "-m", "src.worker"]
+    networks: [mercado_net]
+
+  streamlit:
+    image: mercadoexpress_image:prod
+    container_name: mercadoexpress_streamlit
+    restart: always
+    env_file: [.env]
+    environment:
+      - SQLITE_PATH=/app/data/mercado.db
+    depends_on: [api]
+    ports:
+      - "127.0.0.1:8601:8501"
+    volumes:
+      - ./data:/app/data
+    command: ["streamlit", "run", "app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+    networks: [mercado_net]
+
+networks:
+  mercado_net:
+    driver: bridge
+
+volumes:
+  redis_data:

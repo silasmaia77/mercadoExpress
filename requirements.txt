@@ -1,0 +1,12 @@
+openai
+llama-index
+llama-index-agent-openai
+streamlit
+python-dotenv
+pandas
+openpyxl
+requests
+flask
+sqlalchemy
+redis
+gunicorn

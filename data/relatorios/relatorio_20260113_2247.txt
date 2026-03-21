@@ -1,0 +1,10 @@
+RELATÓRIO DE VENDAS - 13/01/2026
+==================================================
+
+Pedido #1 - Samuel Teste
+Data: 2026-01-14 01:46:54
+Itens: 1x Leite (R$ 4.69)
+Total: R$ 4.69
+------------------------------
+
+TOTAL GERAL VENDIDO: R$ 4.69

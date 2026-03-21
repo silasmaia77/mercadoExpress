@@ -1,0 +1,46 @@
+RELATÓRIO DE VENDAS - 28/01/2026
+==================================================
+
+Pedido #1 - Samuel Teste
+Data: 2026-01-14 01:46:54
+Itens: 1x Leite (R$ 4.69)
+Total: R$ 4.69
+------------------------------
+Pedido #2 - Samuel
+Data: 2026-01-14 01:48:14
+Itens: 1x Queijo Mussarela (Tirolez) - Kg (R$ 39.90) = R$ 39.90
+Total: R$ 39.90
+------------------------------
+Pedido #3 - Silas
+Data: 2026-01-14 02:01:07
+Itens: 1x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90
+2x Feijão Preto (Camil) - 1kg: R$ 15,98
+5x Açúcar Refinado (União) - 1kg: R$ 21,45
+3x Sabonete Líquido (Lux) - 250ml: R$ 23,97
+1x Shampoo (Pantene) - 400ml: R$ 18,90
+0,3x Queijo Mussarela (Tirolez) - Kg: R$ 11,97
+Total: R$ 121.17
+------------------------------
+Pedido #4 - Ana
+Data: 2026-01-14 14:01:02
+Itens: 1x Arroz Tipo 1 (Tio João) - 5kg (R$ 28,90)
+1x Queijo Mussarela (Tirolez) - 300g (R$ 11,97)
+Total: R$ 40.87
+------------------------------
+Pedido #5 - Samuel Teste
+Data: 2026-01-17 18:19:47
+Itens: 1x Leite (R$ 4.69)
+Total: R$ 4.69
+------------------------------
+Pedido #6 - Samuel
+Data: 2026-01-17 18:20:22
+Itens: 1x Queijo Mussarela (Tirolez) - Kg (R$ 39,90) = R$ 39,90
+Total: R$ 39.90
+------------------------------
+Pedido #7 - Samuel Teste
+Data: 2026-01-28 23:27:29
+Itens: 1x Leite (R$ 4.69)
+Total: R$ 4.69
+------------------------------
+
+TOTAL GERAL VENDIDO: R$ 255.91

@@ -1,0 +1,13 @@
+PEDIDO #14
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 13 de Maio 45, Centro
+Pagamento: Dinheiro
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90
+1x Feijão Preto (Camil) - 1kg: R$ 7,99
+0,4x Queijo Mussarela (Tirolez) - Kg: R$ 15,96
+1x Shampoo (Pantene) - 400ml: R$ 18,90
+1x Refrigerante Cola (Coca-Cola) - 2L: R$ 9,99
+-------------------------
+TOTAL: R$ 81.74

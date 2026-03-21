@@ -1,0 +1,14 @@
+PEDIDO #24
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 13 de Maio, 45, Centro
+Pagamento: PIX
+-------------------------
+5kg de Arroz Tipo 1 (Tio João): R$ 28.90
+2kg de Feijão (TopSabor): R$ 12.70
+400g de Queijo Mussarela (Tirolez): R$ 15.96
+1.5kg de Carne Moída (Friboi): R$ 37.35
+Sabonete (Dove) - 90g: R$ 3.29
+5 unidades de Pão Francês: R$ 3.48
+-------------------------
+TOTAL: R$ 101.68

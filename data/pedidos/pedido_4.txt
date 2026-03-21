@@ -1,0 +1,10 @@
+PEDIDO #4
+Cliente: Ana
+Telefone: 38243931
+Endereço: Rua Zeca
+Pagamento: Crédito
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg (R$ 28,90)
+1x Queijo Mussarela (Tirolez) - 300g (R$ 11,97)
+-------------------------
+TOTAL: R$ 40.87

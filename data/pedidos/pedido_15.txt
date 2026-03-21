@@ -1,0 +1,11 @@
+PEDIDO #15
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 34 de Duvidas, Centro
+Pagamento: Pix
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90
+1x Feijão Preto (Camil) - 1kg: R$ 7,99
+300g Queijo Mussarela (Tirolez): R$ 11,97
+-------------------------
+TOTAL: R$ 48.86

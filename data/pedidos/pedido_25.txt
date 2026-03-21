@@ -1,0 +1,11 @@
+PEDIDO #25
+Cliente: Silas
+Telefone: 35 999638223
+Endereço: Rua treze de maio, 455
+Pagamento: PIX
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg (R$ 28,90)
+1x Sabonete (Dove) - 90g (R$ 3,29)
+1x Carne Moída (Friboi) - 1Kg (R$ 24,90)
+-------------------------
+TOTAL: R$ 57.09

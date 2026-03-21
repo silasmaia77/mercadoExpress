@@ -1,0 +1,12 @@
+PEDIDO #10
+Cliente: Silas
+Telefone: 35999638223
+Endereço: Rua 14 de Abril, 254
+Pagamento: Dinheiro
+-------------------------
+1x Arroz Tipo 1 (Tio João) - 5kg: R$ 28,90
+1x Feijão Preto (Camil) - 1kg: R$ 7,99
+0,3 Kg Queijo Mussarela (Tirolez): R$ 11,97
+1x Açúcar Refinado (União) - 1kg: R$ 4,29
+-------------------------
+TOTAL: R$ 53.15
